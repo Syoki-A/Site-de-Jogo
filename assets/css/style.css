@@ -83,5 +83,17 @@ nav {
   color: #f39c12;
 }
 
+.tab-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  color: #fff;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-family: "Cinzel", sans-serif;
+  text-shadow: 1px 1px 3px black;
+}
+
 
 
