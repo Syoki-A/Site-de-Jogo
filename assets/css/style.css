@@ -1,19 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Uncial+Antiqua&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cinzel", sans-serif;
+  color: white;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100vw;
+  min-height: 100vh;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+header {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+
 .logo {
   font-family: "Cinzel", serif;
   font-size: 3rem;
   color: white;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-bottom: 10px;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 0;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .nav-links {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  display: flex;
   list-style: none;
-  padding: 0;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 20px;
+  margin: 0;
 }
 
 .nav-links a {
@@ -21,18 +74,13 @@
   font-size: 1.5rem;
   color: #fff;
   text-shadow: 3px 3px 8px rgba(0, 0, 0, 1);
-  padding: 15px 25px;
+  padding: 20px 25px 10px;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
   color: #f39c12;
-}
-
-nav {
-  text-align: center;
-  margin-top: 10px;
 }
 
 
