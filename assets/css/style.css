@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Uncial+Antiqua&display=swap');
+
+.logo {
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links a {
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 1);
+  padding: 15px 25px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f39c12;
+}
+
+nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
